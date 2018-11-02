@@ -21,12 +21,13 @@ cache:
 script:
   - ng lint
   - ng test --watch=false
-  - ng build --prod
+  - ng build --prod --base-href https://vowelcorp.github.io/vowel/
 
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  local-dir: ./dist/
+  local-dir: dist/vowel
   on:
+    branch: master
