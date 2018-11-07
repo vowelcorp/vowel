@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppShellComponent } from './app-shell/app-shell.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { LeaderComponent } from './leader/leader.component';
+
+import { AppShellComponent } from '@vwApp/app-shell/app-shell.component';
+import { LeaderComponent } from '@vwApp/leader/leader.component';
+import { NotFoundComponent } from '@vwApp/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: '', component: AppShellComponent,
+  { path: '', redirectTo: 'leader', pathMatch: 'full' },
+  { path: 'leader', component: LeaderComponent },
+  { path: 'featured', component: AppShellComponent,
     children: [
 
     ]
   },
-  { path: 'leader', component: LeaderComponent },
   { path: '**', component: NotFoundComponent }
 ];
 
