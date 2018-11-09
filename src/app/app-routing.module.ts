@@ -6,8 +6,8 @@ import { LeaderComponent } from '@vwApp/leader/leader.component';
 import { NotFoundComponent } from '@vwApp/not-found/not-found.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'leader', pathMatch: 'full' },
-  { path: 'leader', component: LeaderComponent },
+  { path: '', component: LeaderComponent },
+  // { path: 'leader', component: LeaderComponent },
   { path: 'featured', component: AppShellComponent,
     children: [
 

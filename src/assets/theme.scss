@@ -1,0 +1,84 @@
+// colour theme
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$mat-vwlprimary: (
+    50 : #f7fbff,
+    100 : #ebf5fe,
+    200 : #ddeffd,
+    300 : #cfe8fc,
+    400 : #c5e3fc,
+    500 : #bbdefb,
+    600 : #b5dafa,
+    700 : #acd5fa,
+    800 : #a4d1f9,
+    900 : #96c8f8,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #ffffff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$mat-vwlaccent: (
+    50 : #f6fdf8,
+    100 : #e9fbee,
+    200 : #dbf9e3,
+    300 : #ccf6d7,
+    400 : #c1f4cf,
+    500 : #b6f2c6,
+    600 : #aff0c0,
+    700 : #a6eeb9,
+    800 : #9eecb1,
+    900 : #8ee8a4,
+    A100 : #ffffff,
+    A200 : #ffffff,
+    A400 : #ffffff,
+    A700 : #fdfffe,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+// vowel default-theme color palette
+$default-theme-primary: mat-palette($mat-vwlprimary, 500, 50, 900);
+$default-theme-accent: mat-palette($mat-vwlaccent, 500, 50, 900);
+$default-theme-warn: mat-palette($mat-deep-orange, 900);
+
+$default-theme: mat-light-theme(
+  $default-theme-primary,
+  $default-theme-accent,
+  $default-theme-warn
+);
+
+// use our theme with angular-material-theme mixin
+@include angular-material-theme($default-theme);

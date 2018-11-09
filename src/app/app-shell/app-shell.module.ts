@@ -5,12 +5,11 @@ import { SharedModule } from '@vwShared/shared.module';
 import { AppShellRoutingModule } from './app-shell-routing.module';
 import { AppShellComponent } from './app-shell.component';
 
-
 @NgModule({
   imports: [
     CommonModule,
-    AppShellRoutingModule,
-    SharedModule
+    SharedModule,
+    AppShellRoutingModule
   ],
   declarations: [AppShellComponent]
 })
