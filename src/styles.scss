@@ -1,9 +1,27 @@
 /* stylesheet version 1.0.0 */
 @import './assets/theme.scss';
 
+@font-face {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./assets/fonts/Anton/Anton-regular.woff2") format("woff2")
+      url("./assets/fonts/Anton/Anton-regular.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2") format("woff2")
+      url("./assets/fonts/Playfair_Display/PlayfairDisplaySC-Regular.woff") format("woff");
+  font-display: fallback;
+}
+
 \:root {
   font-size: 16px;
-  --win-height: 100vh;
+  --win-height: 100
   --bg-color: #ffffff;
   --cont-color: #373331;
   --theme-color: #BBDEFB;
@@ -16,13 +34,18 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: var(--win-height);
-  font-family:
-  apple-system, BlinkMacSystemFont, // Safari Mac/iOS , Chrome
-  "Segoe UI", Roboto, Oxygen, // Windows, Android, KDE
-  Ubuntu, Cantarell, "Fira Sans", // Ubuntu, Gnome, Firefox OS
-  "Droid Sans", "Helvetica Neue", sans-serif; // Old Android
+  // font-family:
+  // apple-system, BlinkMacSystemFont, // Safari Mac/iOS , Chrome
+  // "Segoe UI", Roboto, Oxygen, // Windows, Android, KDE
+  // Ubuntu, Cantarell, "Fira Sans", // Ubuntu, Gnome, Firefox OS
+  // "Droid Sans", "Helvetica Neue", sans-serif; // Old Android
+  font-family: 'Playfair Display', serif;
   color: var(--cont-color);
   background: var(--bg-color);
+}
+
+h1, h2, h3, h4, blockquote {
+  font-family: 'Anton', sans-serif;
 }
 
 mat-toolbar-row {
