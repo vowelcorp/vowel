@@ -9,10 +9,10 @@
       "urls": [
         "https://vowelcorp.github.io/vowel/favicon.ico",
         "https://vowelcorp.github.io/vowel/index.html",
-        "https://vowelcorp.github.io/vowel/main.39ec84430d85c207c3ea.js",
+        "https://vowelcorp.github.io/vowel/main.71fff9c62f8ac178962d.js",
         "https://vowelcorp.github.io/vowel/polyfills.c6871e56cb80756a5498.js",
         "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js",
-        "https://vowelcorp.github.io/vowel/styles.40e414e8a3fcdb22abff.css"
+        "https://vowelcorp.github.io/vowel/styles.d43ff6e6ef00cdf51605.css"
       ],
       "patterns": []
     },
@@ -21,14 +21,21 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "https://vowelcorp.github.io/vowel/assets/fonts/Montserrat-Regular.woff2",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-128x128.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-144x144.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-152x152.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-16x16.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-192x192.png",
-        "https://vowelcorp.github.io/vowel/assets/icons/icon-384x384.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-256x256.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-310x310.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-32x32.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-36x36.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icon-48x48.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-512x512.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-72x72.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-96x96.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/vowel.svg",
         "https://vowelcorp.github.io/vowel/assets/theme.scss"
       ],
       "patterns": []
@@ -36,21 +43,28 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://vowelcorp.github.io/vowel/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://vowelcorp.github.io/vowel/assets/fonts/Montserrat-Regular.woff2": "c957b6bb2ffb6c76a7f7759ea6d065727b80373b",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-128x128.png": "734da4ba49a4bce94ab096f7dcd09d611118e13d",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-144x144.png": "18fc672a5afc3684aef9442d04fa199a048f2de5",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-152x152.png": "87a07c3ac01eeffd79c03a0d709e582f3496b8b1",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-16x16.png": "90ac381d239cb82a9adc453421e28355da07777d",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-192x192.png": "7d62384547497d4b8ddbbaf85707822001a7eac4",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-256x256.png": "c5565123131ae09977a8f63ede1a70dc0da89c61",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-310x310.png": "738a390debc412950f1d9f8d673bf452031e79a5",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-32x32.png": "240d2f762a9d93c37fc10843437812d66ea11e5c",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-36x36.png": "1010ce5c8053f9b7972a2619904a73cbb6e9317e",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-48x48.png": "88bf4cb3409cda38274802b8c462a8c5306d3697",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-512x512.png": "e07ca840abb07d90e87335439d5f27a3f179d7a1",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-72x72.png": "59d6a24ffb64507b0b72259363e27f466906f742",
+    "https://vowelcorp.github.io/vowel/assets/icons/icon-96x96.png": "8abe04178b108fea20c4ae10bbc41dbd5b559f08",
+    "https://vowelcorp.github.io/vowel/assets/icons/vowel.svg": "61bfe6dcffcc6bcfb3146c933def53b8e759871f",
     "https://vowelcorp.github.io/vowel/assets/theme.scss": "466f39ce21bd83037da63c0e6b72f00748c58368",
-    "https://vowelcorp.github.io/vowel/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://vowelcorp.github.io/vowel/index.html": "044c4e08b89e1c546c22d0c1fa8a8debe9b66b9d",
-    "https://vowelcorp.github.io/vowel/main.39ec84430d85c207c3ea.js": "8a4ff0ab9e9a67b7a0d37a5ce0b2db22bb0727ef",
+    "https://vowelcorp.github.io/vowel/favicon.ico": "7a4d49079548abcc7bf347d652e1eff60c56a4ef",
+    "https://vowelcorp.github.io/vowel/index.html": "901ecb8424f9fd99666d4ced83bfbc53421c010c",
+    "https://vowelcorp.github.io/vowel/main.71fff9c62f8ac178962d.js": "cd3d51e652472901938aa197c6482f2847bc61f1",
     "https://vowelcorp.github.io/vowel/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://vowelcorp.github.io/vowel/styles.40e414e8a3fcdb22abff.css": "344d1925ab90ab4ed56d0c5d7dff1059b23f4503"
+    "https://vowelcorp.github.io/vowel/styles.d43ff6e6ef00cdf51605.css": "d645877b287f26c16a89b6bbf0e3fe3ee5ccd4d7"
   },
   "navigationUrls": [
     {
