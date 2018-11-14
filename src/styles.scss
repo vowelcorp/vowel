@@ -2,8 +2,53 @@
 @import './assets/theme.scss';
 
 \:root {
- font-size: 16px;
+  font-size: 16px;
+  --win-height: 100vh;
+  --bg-color: #ffffff;
+  --cont-color: #373331;
+  --theme-color: #BBDEFB;
+  --offline-color: #F5F5F5;
+  --landing-color: #EEFFFF;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100vh; }
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: var(--win-height);
+  font-family:
+  apple-system, BlinkMacSystemFont, // Safari Mac/iOS , Chrome
+  "Segoe UI", Roboto, Oxygen, // Windows, Android, KDE
+  Ubuntu, Cantarell, "Fira Sans", // Ubuntu, Gnome, Firefox OS
+  "Droid Sans", "Helvetica Neue", sans-serif; // Old Android
+  color: var(--cont-color);
+  background: var(--bg-color);
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}
+
+.nav {
+  margin: 0;
+}
+
+.nav--coname {
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.nav--coname::before {
+  content: url('./assets/icons/icon-36x36.png');
+  width: 2.25em;
+  height: 2.25em;
+  top: 0;
+  bottom: 0;
+}
+
+.nav--spacer {
+  -webkit-box-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
