@@ -1,0 +1,21 @@
+.container {
+  width: 81vw;
+  margin: 0 auto;
+}
+
+.header {
+  height: 54px;
+}
+
+.wrapper {
+  height: calc(100vh - 54px);
+}
+
+
+.btn--landing {
+  background: #373331;
+  color: lighten(#373331, 95);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: none;
+}
