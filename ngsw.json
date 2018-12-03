@@ -9,10 +9,10 @@
       "urls": [
         "https://vowelcorp.github.io/vowel/favicon.ico",
         "https://vowelcorp.github.io/vowel/index.html",
-        "https://vowelcorp.github.io/vowel/main.71fff9c62f8ac178962d.js",
-        "https://vowelcorp.github.io/vowel/polyfills.c6871e56cb80756a5498.js",
+        "https://vowelcorp.github.io/vowel/main.088aeb40442de3c5247d.js",
+        "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js",
         "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js",
-        "https://vowelcorp.github.io/vowel/styles.68f264df8ac26a42f53f.css"
+        "https://vowelcorp.github.io/vowel/styles.65f6c8e4e0227816819a.css"
       ],
       "patterns": []
     },
@@ -24,9 +24,13 @@
         "https://vowelcorp.github.io/vowel/assets/fonts/Anton/Anton-regular.woff",
         "https://vowelcorp.github.io/vowel/assets/fonts/Anton/Anton-regular.woff2",
         "https://vowelcorp.github.io/vowel/assets/fonts/Anton/LICENSE.txt",
+        "https://vowelcorp.github.io/vowel/assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff",
+        "https://vowelcorp.github.io/vowel/assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff2",
         "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/OFL.txt",
         "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2",
         "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/PlayfairDisplaySC-Regular.woff",
+        "https://vowelcorp.github.io/vowel/assets/fonts/Raleway/raleway-v12-latin-regular.woff",
+        "https://vowelcorp.github.io/vowel/assets/fonts/Raleway/raleway-v12-latin-regular.woff2",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-128x128.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-144x144.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-152x152.png",
@@ -41,6 +45,8 @@
         "https://vowelcorp.github.io/vowel/assets/icons/icon-72x72.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icon-96x96.png",
         "https://vowelcorp.github.io/vowel/assets/icons/vowel.svg",
+        "https://vowelcorp.github.io/vowel/assets/images/Music-Head.png",
+        "https://vowelcorp.github.io/vowel/assets/images/icons-sb99e1dd876.png",
         "https://vowelcorp.github.io/vowel/assets/theme.scss"
       ],
       "patterns": []
@@ -51,9 +57,13 @@
     "https://vowelcorp.github.io/vowel/assets/fonts/Anton/Anton-regular.woff": "6e17218d7347d8cb006e7e881c2f0b1318af4d0b",
     "https://vowelcorp.github.io/vowel/assets/fonts/Anton/Anton-regular.woff2": "8f193dae9612b7278260f1efbabaaf4faf1e576d",
     "https://vowelcorp.github.io/vowel/assets/fonts/Anton/LICENSE.txt": "c5ca775279044336ffc4e91e44b320936d93b9f7",
+    "https://vowelcorp.github.io/vowel/assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff": "516742829006982bac4f1d881ad6be7f571153fb",
+    "https://vowelcorp.github.io/vowel/assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff2": "ed05ee9b7afb55ad2ceb698d97df9f04ee25946a",
     "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/OFL.txt": "c4e01c26548763ac8632d5216b9d4ff8c8a4252d",
     "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2": "5e2a3cc4fac51110f6e0fabfd7cdaf16bce437a4",
     "https://vowelcorp.github.io/vowel/assets/fonts/Playfair_Display/PlayfairDisplaySC-Regular.woff": "4708daf24dfcad51ce2134450b412a4c7f2eb0cb",
+    "https://vowelcorp.github.io/vowel/assets/fonts/Raleway/raleway-v12-latin-regular.woff": "0384211cf259acf18f12a6508c90d62276f38256",
+    "https://vowelcorp.github.io/vowel/assets/fonts/Raleway/raleway-v12-latin-regular.woff2": "3161545d2626bf3c5704100087021daea6865528",
     "https://vowelcorp.github.io/vowel/assets/icons/icon-128x128.png": "6f1a3b77ce47095586b5325d95dce805ca7d2c1a",
     "https://vowelcorp.github.io/vowel/assets/icons/icon-144x144.png": "186f0d9f28b8c8f6a0d7af4375fc223be9fffd9d",
     "https://vowelcorp.github.io/vowel/assets/icons/icon-152x152.png": "51d9c38ee57c87e22e907399e821598e47079171",
@@ -68,13 +78,15 @@
     "https://vowelcorp.github.io/vowel/assets/icons/icon-72x72.png": "dcf716508860e94b24ebb99bc4c0b428614d6ecb",
     "https://vowelcorp.github.io/vowel/assets/icons/icon-96x96.png": "d3b947a44b85b11dc3714eb1408cebdefd50daa5",
     "https://vowelcorp.github.io/vowel/assets/icons/vowel.svg": "102a777e0735edcc8a95e22ae1cccf0eb3b34935",
+    "https://vowelcorp.github.io/vowel/assets/images/Music-Head.png": "e7f73d92bbc33e24df9935c10d1ca331ebff04d6",
+    "https://vowelcorp.github.io/vowel/assets/images/icons-sb99e1dd876.png": "deb9e28979857549e9fdc3d6972223b9a2d48a15",
     "https://vowelcorp.github.io/vowel/assets/theme.scss": "466f39ce21bd83037da63c0e6b72f00748c58368",
     "https://vowelcorp.github.io/vowel/favicon.ico": "9876ea351627d5ffe2d76a82564040d8d1305d46",
-    "https://vowelcorp.github.io/vowel/index.html": "58c651e5fbc79a95a9618769c0ecbc4d0ffaf157",
-    "https://vowelcorp.github.io/vowel/main.71fff9c62f8ac178962d.js": "cd3d51e652472901938aa197c6482f2847bc61f1",
-    "https://vowelcorp.github.io/vowel/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "https://vowelcorp.github.io/vowel/index.html": "4ef6ae6cf969fd801b9e4ce28bcbd254da4a5aab",
+    "https://vowelcorp.github.io/vowel/main.088aeb40442de3c5247d.js": "4cf4cbf7cdc36920c0618ca3e6ceb14281ecd5a7",
+    "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://vowelcorp.github.io/vowel/styles.68f264df8ac26a42f53f.css": "6217109b4b1b7231625b4b46048ae371eacc8fee"
+    "https://vowelcorp.github.io/vowel/styles.65f6c8e4e0227816819a.css": "6f56e24454973ea8cda2f8d3b4e218276eee8ea3"
   },
   "navigationUrls": [
     {
