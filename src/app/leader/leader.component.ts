@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leader.component.scss']
 })
 export class LeaderComponent implements OnInit {
-  title = 'vowel';
+  title = 'Annotating Solutions';
   constructor() { }
 
   ngOnInit() {

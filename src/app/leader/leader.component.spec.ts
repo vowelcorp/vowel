@@ -23,17 +23,17 @@ describe('LeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should have as title 'vowel'`, () => {
+  it(`should have as title 'Annotating Solutions'`, () => {
     fixture = TestBed.createComponent(LeaderComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('vowel');
+    expect(app.title).toEqual('Annotating Solutions');
   });
 
-  it('should render title in a h1 tag', () => {
+  it('should render title in a h2 tag', () => {
     fixture = TestBed.createComponent(LeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to vowel!');
+    expect(compiled.querySelector('h2').textContent).toContain('Annotating Solutions');
   });
 
 });

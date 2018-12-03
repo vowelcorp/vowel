@@ -1,23 +1,33 @@
 /* stylesheet version 1.0.0 */
 @import './assets/theme.scss';
+@import '~typesettings/typesettings';
 
 @font-face {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-style: normal;
-  src: url("./assets/fonts/Anton/Anton-regular.woff2") format("woff2")
-      url("./assets/fonts/Anton/Anton-regular.woff") format("woff");
+  src: url("./assets/fonts/Raleway/raleway-v12-latin-regular.woff2") format("woff2")
+      url("./assets/fonts/Raleway/raleway-v12-latin-regular.woff") format("woff");
   font-display: fallback;
 }
 
 @font-face {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Noto Sans SC', sans-serif;
   font-weight: 400;
   font-style: normal;
-  src: url("./assets/fonts/Playfair_Display/PlayfairDisplay-Regular.woff2") format("woff2")
-      url("./assets/fonts/Playfair_Display/PlayfairDisplaySC-Regular.woff") format("woff");
+  src: url("./assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff2") format("woff2")
+      url("./assets/fonts/Noto_Sans_SC/noto-sans-sc-v2-latin-regular.woff") format("woff");
   font-display: fallback;
 }
+
+// @font-face {
+//   font-family: 'Source Sans Pro', sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+//   src: url("./assets/fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.woff2") format("woff2")
+//       url("./assets/fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.woff") format("woff");
+//   font-display: fallback;
+// }
 
 \:root {
   font-size: 16px;
@@ -29,28 +39,75 @@
   --landing-color: #EEFFFF;
 }
 
-html, body { height: 100vh; }
-body {
-  margin: 0;
+html, body {
   box-sizing: border-box;
-  height: var(--win-height);
-  // font-family:
-  // apple-system, BlinkMacSystemFont, // Safari Mac/iOS , Chrome
-  // "Segoe UI", Roboto, Oxygen, // Windows, Android, KDE
-  // Ubuntu, Cantarell, "Fira Sans", // Ubuntu, Gnome, Firefox OS
-  // "Droid Sans", "Helvetica Neue", sans-serif; // Old Android
-  font-family: 'Playfair Display', serif;
-  color: var(--cont-color);
-  background: var(--bg-color);
+  font-family: inherit;
 }
 
-h1, h2, h3, h4, blockquote {
-  font-family: 'Anton', sans-serif;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+$font-sans: 'Noto Sans SC', sans-serif;
+$font-serif: 'Raleway', sans-serif;
+$font-mono: 'Lucida Console', monospace;
+$text-color: #373331;
+$base-vertical-unit: 6px;
+$base-line-multi: 6;
+$base-font-size: 14px;
+$ms-ratio: 1.414;
+$paragraph-indent: false;
+$paragraph-justify: true;
+$load-typesetted: true;
+$global-init: true;
+
+body, p, ol, ul {
+  font-family: $font-sans;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: $font-serif;
+  font-weight: bold;
+}
+
+h1, .h1 {
+  color: lighten($text-color, 0);
+  margin-bottom: emRhythm(1);
+}
+
+h2, .h2 { color: lighten($text-color, 5); }
+
+h3, .h3 { color: lighten($text-color, 15); }
+
+h4, .h4 { color: lighten($text-color, 20); }
+
+h5, .h5 { color: lighten($text-color, 25); }
+
+h6, .h6 { color: lighten($text-color, 30); }
+
+// hr { background-color: #fafafa; }
 
 mat-toolbar-row {
   justify-content: space-between;
 }
+
+// .container {
+//   padding: emRhythm(1);
+// }
 
 .nav {
   margin: 0;
@@ -75,3 +132,23 @@ mat-toolbar-row {
   flex: 1 0 auto;
 }
 
+.title {
+  padding-bottom: emRhythm(3);
+}
+
+// .btn--default {
+//   padding-right: emRhythm(2, $ms-down1);
+//   padding-left: emRhythm(2, $ms-down1);
+//   padding-top: emRhythm(2, $ms-down1);
+//   padding-bottom: emRhythm(2, $ms-down1);
+// }
+
+.content {
+  margin-top: emRhythm(3);
+  margin-bottom: emRhythm(6);
+
+  & p {
+    margin-bottom: emRhythm(3, $ms-down1);
+    // @include setType(3, $ms-down1);
+  }
+}
