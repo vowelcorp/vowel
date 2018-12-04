@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512.00001 512.00001"
+   id="svg4170"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="/home/ben/Documents/Work/vowel/vowel-blue.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="vowel-icon.svg">
+  <defs
+     id="defs4172">
+    <clipPath
+       id="_clipPath_25NVjpebGAjOYQ89XO2EeMIcYUNBn81I">
+      <rect
+         y="0"
+         x="0"
+         id="rect5822"
+         height="512"
+         width="512" />
+    </clipPath>
+    <clipPath
+       id="clipPath4159">
+      <rect
+         y="0"
+         x="0"
+         id="rect4161"
+         height="512"
+         width="512" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-154.0399"
+     inkscape:cy="186.13203"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4175">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3">
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       transform="matrix(0.47605623,0,0,0.47605623,-285.02684,157.06407)"
+       id="g5989"
+       style="isolation:isolate;fill:#bbdefb;stroke:#bbdefb;stroke-opacity:1;fill-opacity:1">
+      <g
+         transform="matrix(0.95747688,0,0,0.95747688,1116.5138,252.61592)"
+         clip-path="url(#_clipPath_25NVjpebGAjOYQ89XO2EeMIcYUNBn81I)"
+         id="g5991"
+         style="fill:#bbdefb;stroke:#bbdefb;stroke-opacity:1;fill-opacity:1">
+        <path
+           style="fill:#bbdefb;stroke:#bbdefb;stroke-opacity:1;fill-opacity:1"
+           inkscape:connector-curvature="0"
+           d="M 235.772,436.83 121.146,264.891 6.52,92.952 C -4.644,76.206 2.632,62.61 22.758,62.61 l 233.242,0 233.242,0 c 20.126,0 27.402,13.596 16.238,30.342 L 390.854,264.891 276.228,436.83 c -11.164,16.747 -29.292,16.747 -40.456,0 z"
+           id="path5993" />
+      </g>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="isolation:isolate;fill:#ffffff;stroke:#ffffff;stroke-opacity:1;fill-opacity:1"
+       d="M 258.0957,31.691406 A 148.61441,148.69443 0 0 0 109.48047,180.38672 148.61441,148.69443 0 0 0 178.41406,305.86133 l -25.4082,0 -106.314454,0 c -9.173689,0 -12.491039,6.19704 -7.402344,13.83008 l 52.248047,78.37304 52.248051,78.3711 c 5.0887,7.6335 13.3527,7.6335 18.4414,0 l 52.24805,-78.3711 46.07031,-69.10742 A 148.61441,148.69443 0 0 0 406.71094,180.38672 148.61441,148.69443 0 0 0 258.0957,31.691406 Z m 0,74.406254 a 74.243895,74.287231 0 0 1 74.24219,74.28906 74.243895,74.287231 0 0 1 -74.24219,74.28516 74.243895,74.287231 0 0 1 -74.24218,-74.28516 74.243895,74.287231 0 0 1 74.24218,-74.28906 z"
+       id="path5999"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-540.36216)"
+     style="display:inline" />
+</svg>
