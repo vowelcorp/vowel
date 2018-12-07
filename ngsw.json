@@ -9,10 +9,10 @@
       "urls": [
         "https://vowelcorp.github.io/vowel/favicon.ico",
         "https://vowelcorp.github.io/vowel/index.html",
-        "https://vowelcorp.github.io/vowel/main.8c58a6a74a542347de7e.js",
+        "https://vowelcorp.github.io/vowel/main.8fbe0e1f72cadbfdbaec.js",
         "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js",
         "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js",
-        "https://vowelcorp.github.io/vowel/styles.2430c917679d0e2d3f39.css"
+        "https://vowelcorp.github.io/vowel/styles.9f8953ed5e9e3a9644c4.css"
       ],
       "patterns": []
     },
@@ -70,6 +70,7 @@
         "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-512x512.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-72x72.png",
         "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-96x196.png",
+        "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-96x96.png",
         "https://vowelcorp.github.io/vowel/assets/icons/svg/vowel-dark.svg",
         "https://vowelcorp.github.io/vowel/assets/icons/svg/vowel-light.svg",
         "https://vowelcorp.github.io/vowel/assets/images/Music-Head.png",
@@ -130,17 +131,18 @@
     "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-512x512.png": "f7d316b416a0f2b8ed82ead35c4e114b0f1ab28d",
     "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-72x72.png": "37a08c39396393d2283bdf66a85dba05c4418b79",
     "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-96x196.png": "138cbee6fe08dcd6c9274d5903252144fab69b95",
+    "https://vowelcorp.github.io/vowel/assets/icons/icons-torch/icon-torch-96x96.png": "138cbee6fe08dcd6c9274d5903252144fab69b95",
     "https://vowelcorp.github.io/vowel/assets/icons/svg/vowel-dark.svg": "1fa49bbef2192c3244460dcbd7a480ce3e550eb2",
     "https://vowelcorp.github.io/vowel/assets/icons/svg/vowel-light.svg": "ac9e5d457548474c0129bc59a0b2c70b11b7c9c3",
     "https://vowelcorp.github.io/vowel/assets/images/Music-Head.png": "e7f73d92bbc33e24df9935c10d1ca331ebff04d6",
     "https://vowelcorp.github.io/vowel/assets/images/icons-sb99e1dd876.png": "deb9e28979857549e9fdc3d6972223b9a2d48a15",
     "https://vowelcorp.github.io/vowel/assets/theme.scss": "466f39ce21bd83037da63c0e6b72f00748c58368",
     "https://vowelcorp.github.io/vowel/favicon.ico": "f61d4e2d87fe3075e8250aa7dbe68371675717fa",
-    "https://vowelcorp.github.io/vowel/index.html": "6e55f02fb9f9d91b6c889fe48de6a50ad31564b1",
-    "https://vowelcorp.github.io/vowel/main.8c58a6a74a542347de7e.js": "b67253f43928a61661ff46e32655d4a5bfd259e9",
+    "https://vowelcorp.github.io/vowel/index.html": "00ce69e37152a68b7f279eb4be6eaf5692e0d25c",
+    "https://vowelcorp.github.io/vowel/main.8fbe0e1f72cadbfdbaec.js": "701139ed1972b82fda70c0608519bf8c0dd4c391",
     "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://vowelcorp.github.io/vowel/styles.2430c917679d0e2d3f39.css": "fdfff94b2bc263c3667f8ac85325d133a74798ae"
+    "https://vowelcorp.github.io/vowel/styles.9f8953ed5e9e3a9644c4.css": "02a5cdd89ee7a73c640a8f507d2cc87afb93e670"
   },
   "navigationUrls": [
     {
