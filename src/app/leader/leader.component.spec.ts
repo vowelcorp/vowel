@@ -23,17 +23,17 @@ describe('LeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should have as title 'Annotating Solutions'`, () => {
+  it(`should have as title 'Annotating Solutions for Problem Solvers'`, () => {
     fixture = TestBed.createComponent(LeaderComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Annotating Solutions');
+    expect(app.title).toEqual('Annotating Solutions for Problem Solvers');
   });
 
-  it('should render title in a h2 tag', () => {
+  it('should render title in a h3 tag', () => {
     fixture = TestBed.createComponent(LeaderComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h2').textContent).toContain('Annotating Solutions');
+    expect(compiled.querySelector('h3').textContent).toContain('Annotating Solutions for Problem Solvers');
   });
 
 });

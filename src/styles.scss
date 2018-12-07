@@ -59,8 +59,8 @@ $font-mono: 'Lucida Console', monospace;
 $text-color: #373331;
 $base-vertical-unit: 6px;
 $base-line-multi: 6;
-$base-font-size: 14px;
-$ms-ratio: 1.414;
+$base-font-size: 13px;
+$ms-ratio: 1.618;
 $paragraph-indent: false;
 $paragraph-justify: true;
 $load-typesetted: true;
@@ -80,15 +80,15 @@ h1, .h1 {
   margin-bottom: emRhythm(1);
 }
 
-h2, .h2 { color: lighten($text-color, 5); }
+// h2, .h2 { color: lighten($text-color, 5); }
 
-h3, .h3 { color: lighten($text-color, 15); }
+// h3, .h3 { color: lighten($text-color, 15); }
 
-h4, .h4 { color: lighten($text-color, 20); }
+// h4, .h4 { color: lighten($text-color, 20); }
 
-h5, .h5 { color: lighten($text-color, 25); }
+// h5, .h5 { color: lighten($text-color, 25); }
 
-h6, .h6 { color: lighten($text-color, 30); }
+// h6, .h6 { color: lighten($text-color, 30); }
 
 mat-toolbar-row {
   justify-content: space-between;
@@ -129,11 +129,33 @@ mat-toolbar-row {
 // }
 
 .content {
-  margin-top: emRhythm(3);
-  margin-bottom: emRhythm(6);
+  margin-top: emRhythm(1);
+  margin-bottom: emRhythm(5);
 
   & p {
     margin-bottom: emRhythm(3, $ms-down1);
     // @include setType(3, $ms-down1);
+  }
+}
+
+.headlines {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+
+  & .brief {
+    padding: emRhythm(3);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .headlines {
+      grid-template-columns: 2fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .headlines {
+      grid-template-columns: repeat(3, 1fr);
   }
 }

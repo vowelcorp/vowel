@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leader.component.scss']
 })
 export class LeaderComponent implements OnInit {
-  title = 'Annotating Solutions';
+  title = 'Annotating Solutions for Problem Solvers';
   constructor() { }
 
   ngOnInit() {
