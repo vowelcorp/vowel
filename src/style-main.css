@@ -538,6 +538,7 @@ table {
 
 body {
   background-color: #fff;
+  color: #3d4852;
 }
 
 h1,
@@ -586,9 +587,9 @@ h6,
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
 }
 
-.content {
-  color: #3d4852;
-}
+/* .content {
+    @apply .text-grey-darkest;
+} */
 
 .headlines p {
   font-size: .75rem;

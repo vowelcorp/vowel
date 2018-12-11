@@ -23,7 +23,7 @@ cache:
 script:
   - ng lint
   - ng test --watch=false
-  - ng build --prod --base-href https://vowelcorp.github.io/vowel/
+  - ngtw build && ng build --prod --base-href https://vowelcorp.github.io/vowel/
 
 deploy:
   provider: pages

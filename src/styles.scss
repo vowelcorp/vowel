@@ -73,12 +73,13 @@ body, p, ol, ul {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: $font-serif;
   font-weight: bold;
-}
-
-h1, .h1 {
-  color: lighten($text-color, 0);
   margin-bottom: emRhythm(1);
 }
+
+// h1, .h1 {
+//   color: lighten($text-color, 0);
+//   margin-bottom: emRhythm(1);
+// }
 
 // h2, .h2 { color: lighten($text-color, 5); }
 
