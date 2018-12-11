@@ -13,7 +13,7 @@ before_script:
   - yarn global add @angular/cli
   - yarn global add ng-tailwindcss
   - yarn global add firebase-tools
-  - yarn global add snyk
+  - npm install -g snyk
 
 cache:
   yarn: true
