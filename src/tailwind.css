@@ -21,7 +21,7 @@
   */
  @tailwind components;
 
- body { @apply .bg-white; }
+ body { @apply .bg-white .text-grey-darkest; }
 
  h1, .h1 { @apply .text-black .font-extrabold; }
 
@@ -39,9 +39,9 @@
     @apply .font-semibold .py-2 .px-4 .rounded .shadow;
 }
 
-.content {
+/* .content {
     @apply .text-grey-darkest;
-}
+} */
 
 .headlines p {
     @apply .text-xs;
