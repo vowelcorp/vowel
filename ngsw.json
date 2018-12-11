@@ -9,10 +9,10 @@
       "urls": [
         "https://vowelcorp.github.io/vowel/favicon.ico",
         "https://vowelcorp.github.io/vowel/index.html",
-        "https://vowelcorp.github.io/vowel/main.8fbe0e1f72cadbfdbaec.js",
+        "https://vowelcorp.github.io/vowel/main.86e23e06cfad7527a904.js",
         "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js",
         "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js",
-        "https://vowelcorp.github.io/vowel/styles.9f8953ed5e9e3a9644c4.css"
+        "https://vowelcorp.github.io/vowel/styles.827857eedf1b4f133cd9.css"
       ],
       "patterns": []
     },
@@ -138,11 +138,11 @@
     "https://vowelcorp.github.io/vowel/assets/images/icons-sb99e1dd876.png": "deb9e28979857549e9fdc3d6972223b9a2d48a15",
     "https://vowelcorp.github.io/vowel/assets/theme.scss": "466f39ce21bd83037da63c0e6b72f00748c58368",
     "https://vowelcorp.github.io/vowel/favicon.ico": "f61d4e2d87fe3075e8250aa7dbe68371675717fa",
-    "https://vowelcorp.github.io/vowel/index.html": "00ce69e37152a68b7f279eb4be6eaf5692e0d25c",
-    "https://vowelcorp.github.io/vowel/main.8fbe0e1f72cadbfdbaec.js": "701139ed1972b82fda70c0608519bf8c0dd4c391",
+    "https://vowelcorp.github.io/vowel/index.html": "555639947b6dd059f864cda79fe39950d2adccba",
+    "https://vowelcorp.github.io/vowel/main.86e23e06cfad7527a904.js": "a3497535096a31bbe31cf30fe8f2e410a352b126",
     "https://vowelcorp.github.io/vowel/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://vowelcorp.github.io/vowel/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://vowelcorp.github.io/vowel/styles.9f8953ed5e9e3a9644c4.css": "02a5cdd89ee7a73c640a8f507d2cc87afb93e670"
+    "https://vowelcorp.github.io/vowel/styles.827857eedf1b4f133cd9.css": "d7421736ccf74eab2476efd7700f701368367c19"
   },
   "navigationUrls": [
     {
